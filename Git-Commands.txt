@@ -1,0 +1,15 @@
+git config --global user.name "Souparna Bose"
+git config --global user.email "souparnabose99@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+git add .
+git commit -am 'Initial Commit'
+mkdir ~/.ssh
+cd ~/.ssh
+ssh-keygen.exe
+ls ->id_rsa, id_rsa.pub
+cat id_rsa.pub
+Github->Settings->SSH & GPG Key->Add new ssh key
+git remote add origin git@github.com:souparnabose99/Flask-Jinja-Templates
+git push -u origin master
